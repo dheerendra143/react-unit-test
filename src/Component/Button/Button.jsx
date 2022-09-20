@@ -7,7 +7,7 @@ const Button = () => {
         })
     }
     return (
-        <button onClick={(e)=>handleClick(e)}>Click here</button>
+        <button data-testid="btn-click"  onClick={(e)=>handleClick(e)}>Click here</button>
     )
 }
 
